@@ -13,13 +13,8 @@ import {
 
 import BackgroundCard from "@/components/background-card";
 
-interface OptionProps {
-  icon: React.ElementType;
-  title: string;
-  children: React.ReactNode;
-}
 
-function Option({ icon: Icon, title, children }: OptionProps) {
+function Option({ icon: Icon, title, children }) {
   return (
     <div className="flex gap-4">
       <div className="mb-4">

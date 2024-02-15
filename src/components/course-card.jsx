@@ -1,14 +1,9 @@
 import { Typography, Card, CardBody, CardHeader, Button } from "@material-tailwind/react";
 import Image from "next/image";
 
-interface CourseCardProps {
-  img: string;
-  title: string;
-  desc: string;
-  buttonLabel: string;
-}
 
-export function CourseCard({ img, title, desc, buttonLabel }: CourseCardProps) {
+
+export function CourseCard({ img, title, desc, buttonLabel }) {
   return (
     <Card color="transparent" shadow={false}>
       <CardHeader floated={false} className="mx-0 mt-0 mb-6 h-48">

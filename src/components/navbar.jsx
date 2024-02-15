@@ -8,11 +8,8 @@ import {
 } from "@material-tailwind/react";
 import { XMarkIcon, Bars3Icon } from "@heroicons/react/24/solid";
 
-interface NavItemProps {
-  children: React.ReactNode;
-  href?: string;
-}
-function NavItem({ children, href }: NavItemProps) {
+
+function NavItem({ children, href }) {
   return (
     <li>
       <Typography
@@ -68,9 +65,8 @@ export function Navbar() {
           Material Tailwind
         </Typography>
         <ul
-          className={`ml-10 hidden items-center gap-6 lg:flex ${
-            isScrolling ? "text-gray-900" : "text-white"
-          }`}
+          className={`ml-10 hidden items-center gap-6 lg:flex ${isScrolling ? "text-gray-900" : "text-white"
+            }`}
         >
           <NavItem>Home</NavItem>
           <NavItem>About Us</NavItem>

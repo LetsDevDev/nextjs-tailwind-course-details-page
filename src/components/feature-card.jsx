@@ -5,12 +5,8 @@ import {
   CardBody,
 } from "@material-tailwind/react";
 
-interface FeatureCardProps {
-  icon: React.ElementType;
-  title: string;
-  children: React.ReactNode;
-}
-export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
+
+export function FeatureCard({ icon: Icon, title, children }) {
   return (
     <Card color="transparent" shadow={false}>
       <CardBody className="grid place-items-start px-0">
