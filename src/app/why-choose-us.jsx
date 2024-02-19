@@ -36,14 +36,13 @@ export function WhyChooseUs() {
   return (
     <section className="w-full max-w-4xl mx-auto flex flex-col items-center px-4 py-10">
       <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-        Why choose our course?
+        Vad kostar det?
       </Typography>
       <Typography
         variant="lead"
         className="mb-16 w-full text-center font-normal !text-gray-500 lg:w-10/12"
       >
-        Discover the unique advantages, benefits, and standout features that set
-        our course apart from the rest.
+        Vi betalar ut 95% av intäkterna till dig. Vi tar 5% i provision för att täcka våra kostnader.
       </Typography>
       <div className="mt-8">
         <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">

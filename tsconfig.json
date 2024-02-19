@@ -33,7 +33,21 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/app/hero.jsx",
+    "src/app/carousel-features.jsx",
+    "src/app/why-choose-us.jsx",
+    "src/app/pricing.jsx",
+    "src/app/other-courses.jsx",
+    "src/app/online-course.jsx",
+    "src/components/navbar.jsx",
+    "src/components/layout.jsx",
+    "src/components/index.js",
+    "src/components/footer.jsx",
+    "src/components/course-card.jsx",
+    "src/components/background-card.jsx",
+    "src/components/feature-card.jsx",
+    "src/components/fixed-plugin.jsx"
   ],
   "exclude": [
     "node_modules"

@@ -4,30 +4,31 @@ import React from "react";
 import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
 import {
-  AcademicCapIcon,
   CheckBadgeIcon,
-  InboxIcon,
+  QrCodeIcon,
+  DevicePhoneMobileIcon,
+  CreditCardIcon,
 } from "@heroicons/react/24/solid";
 
 import FeatureCard from "@/components/feature-card";
 
 const FEATURES = [
   {
-    icon: InboxIcon,
-    title: "Hands-On Projects",
+    icon: QrCodeIcon,
+    title: "Proffsig QR-kod",
     description:
-      "Apply your knowledge to real-world projects, building a robust portfolio.",
+      "En stilren QR-kod som passar in i alla miljöer. ",
   },
   {
-    icon: AcademicCapIcon,
-    title: "Career Opportunities",
+    icon: DevicePhoneMobileIcon,
+    title: "Smartphone",
     description:
-      "React developers are in high demand and this course is designed for you!",
+      "Alla med en smartphone kan använda vårat system. Bara rikta kameran mot QR-koden och du är igång.",
   },
   {
-    icon: CheckBadgeIcon,
-    title: "Flexible Learning",
-    description: "Access course materials whenever it suits your schedule.",
+    icon: CreditCardIcon,
+    title: "Sätt dina egna priser",
+    description: "Sätt dina egna priser och få betalt direkt till ditt konto.",
   },
 ];
 
@@ -39,22 +40,20 @@ export function OnlineCourse() {
           <Image
             width={768}
             height={500}
-            src="/image/online-course.png"
-            className="h-full max-h-[500px] w-full object-cover scale-110"
+            src="/image/qr.png"
+            className="h-full rounded-md max-h-[500px] w-full object-cover scale-110"
             alt="online course"
           />
         </div>
         <div className="col-span-2 lg:pl-24">
           <Typography variant="h2" color="blue-gray" className="mb-4">
-            Online Course
+            Ingen app inget krångel
           </Typography>
           <Typography
             variant="lead"
             className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-500 lg:px-0  "
           >
-            In this comprehensive React Course, you&apos;ll delve into the world
-            of React, from its fundamentals to advanced techniques. Our expert
-            instructors will guide you through every step.
+            Vårat system kräver ingen förkunskap och kan användas av alla mobiler, inga installationer krävs.
           </Typography>
 
           <div className="col-span-2 grid grid-cols-1 gap-10 sm:grid-cols-3 ">

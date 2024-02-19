@@ -19,7 +19,7 @@ export function CarouselFeatures() {
           Discover what our students have to say about our course!
         </Typography>
       </div>
-      <div className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
+      <div className="container mx-auto !rounded-lg bg-[url('/image/brew1.png')] bg-center py-10 lg:px-16">
         <Carousel
           transition={{ duration: 1 }}
           nextArrow={() => <></>}
